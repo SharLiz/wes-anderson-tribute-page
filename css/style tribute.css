@@ -1,0 +1,190 @@
+h1 {
+  color: white;
+  background-color: rgb(240, 62, 30);
+  text-align: center;
+  padding: 1.2em;
+  margin: auto 10 px;
+  font-family: "Amatic SC", cursive;
+  font-size: 50px;
+}
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 10px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+}
+
+.a.palette {
+  display: inline-block;
+  border-radius: 50%;
+  margin: auto 30px;
+  transition: all 0.2s ease-in;
+}
+
+nav a {
+  display: inline-block;
+  color: white;
+  background-color: rgb(83, 210, 219);
+
+  padding: 1em;
+  margin: 10px 10px;
+  border-radius: 40%;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Amatic SC", cursive;
+  font-size: 35px;
+}
+
+nav a:hover {
+  background-color: rgb(240, 62, 30);
+  color: white;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in;
+}
+
+#img-div {
+  display: block;
+  width: 500px;
+  margin: 20px auto;
+  border-radius: 50%;
+  text-align: center;
+}
+
+#drawing {
+  display: block;
+  max-width: 100%;
+  border-radius: 50%;
+  box-shadow: 8px -5px 20px rgba(0, 0, 0, 0.23), 0 6px 6px rgba(0, 0, 0, 0.18);
+}
+
+.palette {
+  display: block;
+  text-align: center;
+  margin: auto auto;
+}
+
+.fig.palette {
+  margin: 30px auto;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+}
+
+#SZ {
+  margin: 30px auto;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+}
+
+#MK {
+  margin: 30px auto;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+}
+
+.img-caption {
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 20px;
+}
+
+article {
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+  min-width: 400px;
+  display: block;
+}
+
+#tribute-info {
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 100px;
+  min-width: 400px;
+  display: block;
+}
+
+p {
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+  margin: 50px 50px;
+}
+
+a {
+  display: block;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+}
+
+a:hover {
+  font-size: 35px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 50px;
+  grid-gap: 50px;
+
+  text-align: center;
+  list-style: none;
+}
+
+.movies {
+  height: auto;
+  width: auto;
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  border: 3px dotted rgb(83, 210, 219);
+  border-radius: 25%;
+  padding-bottom: 20px;
+  padding-top: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.back {
+  display: inline;
+  color: white;
+  font-size: 50px;
+}
+
+.back:hover {
+  transition: all 0.2s ease-in;
+}
+
+#tribute-link {
+  margin: 0 auto;
+}
+
+p.footer {
+  text-align: end;
+  font-size: 25px;
+  margin: 10px 10px;
+}
+figcaption {
+  font-size: 30px;
+}
